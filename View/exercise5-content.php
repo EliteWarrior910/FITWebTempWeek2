@@ -7,7 +7,20 @@
       The user will enter a long string of text, then on button click, the code will search the long string for a keyword and print everything after the keyword to a p tag. 
       (You may use "skeleton" as the keyword if you can't think of anything else.)</h4>
     <!-- Place Answer Here -->
+      <label for="StringIn">Write Something Funny:</label>
+      <input id="StringIn">
+      <p id="BunchesOfWords"></p>
+      <button id = "StringBut" onClick="makeSentance( document.getElementById('StringIn').value )">Save The Funny Thing</button>
 
+      <script>
+      //var index=input;
+      function makeSentance(input)
+      {
+        var index=input;
+        var Keyword = index.indexOf("skull");
+        document.getElementById("BunchesOfWords").innerHTML = "\"" + index.substring(Keyword + 5, input.length) + "\"";
+      }
+      </script>
       
 
     <!-- Place Answer Here -->
