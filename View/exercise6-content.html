@@ -6,12 +6,33 @@
     <h4>Create a dice class that holds an int attribute for the number of sides it has, and a roll function that rolls the dice and returns the outcome. 
       Add the elements and script needed so that a user can enter a number of sides and a number of times to roll; display on a button click.</h4>
     <!-- Place Answer Here -->
-      
-      
-
-    <!-- Place Answer Here -->
+    <button id="Button" onclick="SideDesider( document.getElementById('InputOne').value )">Number of Sides</button>
+    <input id="InputOne">
+    <button id="RollButton" onclick="RollDie( document.getElementById('InputOne').value )">Roll</button>
+    <p id="Outcome"></p>
+    <script>
+    /*class Dice{
+      constructor(Sides){
+        this.sides = Sides;
+      }
+    }*/
+    var Sides = 0;
+    function SideDesider(input){
+      Sides = input
+      if (Sides <= 1){
+        document.getElementById("Outcome").innerHTML = "Invalid Number of Sides"
+      }
+    }
+    function RollDie(){
+      var RollNumber = Math.floor(Math.random() * Sides) + 1;
+      document.getElementById("Outcome").innerHTML = "You rolled a " + RollNumber;
+    }
+  </script>
   </div>
-<!-- Question 1 -->
+
+
+
+
 
 <!-- Question F1 -->
   <div class='student-response'>
@@ -19,10 +40,31 @@
     <h4>Copy Question 1, but add a 'cheaty' attribute that allows the user to also input how cheaty they wish their dice to be. 
       (be creative and useful, it'll earn you more points! :)</h4>
     <!-- Place Answer Here -->
-      
-
-
-    <!-- Place Answer Here -->
+    <button id="Button" onclick="SideDesider( document.getElementById('InputOne').value )">Number of Sides</button>
+    <input id="InputOne">
+    <button id="RollButton" onclick="RollDie( document.getElementById('InputOne').value )">Roll</button>
+    <p id="Outcome"></p>
+    <script>
+    /*class Dice{
+      constructor(Sides){
+        this.sides = Sides;
+      }
+    }*/
+    var Sides = 0;
+    function SideDesider(input){
+      Sides = input
+      if (Sides == "wswsadadBAstart max_Roles"){
+        document.getElementById("Outcome").innerHTML = "Invalid Number of Sides"
+      }
+      if (Sides <= 1){
+        document.getElementById("Outcome").innerHTML = "Invalid Number of Sides"
+      }
+    }
+    function RollDie(){
+      var RollNumber = Math.floor(Math.random() * Sides) + 1;
+      document.getElementById("Outcome").innerHTML = "You rolled a " + RollNumber;
+    }
+  </script>
   </div>
 <!-- Question F1 -->
 
