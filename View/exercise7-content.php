@@ -19,35 +19,47 @@
       <?php
         //creature array (Name, Challenge rating, armor class, hp, speed, actions)
         $creatureList = array (
-          array("Owlbear", "3 (700 XP)", "13 (Natural Armor)", "59 (7d10 + 21)", "40 ft.", "Multiattack, Beak, Claws"),
-          array("Shambling Mound", "5 (1,800 XP)", "15 (Natural Armor)", "136 (16d10 + 48)", "20 ft., swim 20 ft.", "Multiattack, Slam, Engulf"),
-          array("Aboleth", "10 (5,900 XP)", "17 (Natural Armor)", "135 (18d10 + 36)", "10 ft., swim 40 ft.", "Multiattack, Tentacle, Tail, Enslave (3/day), Legendary Action"),
-          array("Beholder", "13 (10,000 XP)", "18 (natural armor)", "189 (19d10 + 76)", "0 ft., fly 20 ft. (hover)", "Bite, Eye Rays, Legendary Action"),
-          array("Tarrasque", "30 (155,000 XP)", "25 (Natural Armor)", "676 (33d20 + 330)", "40 ft.", "Multiattack, Claw, Horns, Tail, Frightful Presence, Swallow, Legendary Action"),
-          //array("Three Kobolds in a Trenchcoat", "1 (200 XP)", "12", "15 (6d6 - 6)", "30 ft.", "Multiattack, Dagger, Sling")
+          array("Owlbear", "3 (700 XP)", "13 (Natural Armour)", "59 (7d10 + 21)", "40 ft.", "Multiattack, Beak, Claws"),
+          array("Shambling Mound", "5 (1,800 XP)", "15 (Natural Armour)", "136 (16d10 + 48)", "20 ft., swim 20 ft.", "Multiattack, Slam, Engulf"),
+          array("Aboleth", "10 (5,900 XP)", "17 (Natural Armour)", "135 (18d10 + 36)", "10 ft., swim 40 ft.", "Multiattack, Tentacle, Tail, Enslave (3/day), Legendary Action"),
+          array("Beholder", "13 (10,000 XP)", "18 (Natural Armour)", "189 (19d10 + 76)", "0 ft., fly 20 ft. (hover)", "Bite, Eye Rays, Legendary Action"),
+          array("Tarrasque", "30 (155,000 XP)", "25 (Natural Armour)", "676 (33d20 + 330)", "40 ft.", "Multiattack, Claw, Horns, Tail, Frightful Presence, Swallow, Legendary Action"),
+          //array("Three Kobolds in a Trenchcoat", "1 (200 XP)", "10", "15 (6d6 - 6)", "30 ft.", "Multiattack, Dagger, Sling")
         );
       ?>
     <!-- /Given Material -->
 
     <!-- Place Answer Here -->
-
+        <?php
+          include './Controller/CreatureTable.php';
+        ?>
     
 
     <!-- Place Answer Here -->
   </div>
 <!-- Question 1 -->
 
+
+
+
+
+
 <!-- Question F1 -->
   <div class='student-response'>
     <h1>Question #F1:</h1>
     <h4>Create the elements and code so that the user can enter a string here and it will appear on the exercise 6 page as a new div for 24 minutes.</h4>
     <!-- Place Answer Here -->
-
-      
+      <?php
+        include './Controller/Subjugation.php';
+      ?>
 
     <!-- Place Answer Here -->
   </div>
 <!-- Question F1 -->
+
+
+
+
 
 <!-- Question F2 -->
   <div class='student-response'>

@@ -2,6 +2,7 @@
     include './Controller/db_inc.php';
     include './View/header.php';
     include './View/navbar.php';
+    session_start();
 ?>
 
 <div class='main-content-grid'>
@@ -25,7 +26,11 @@
         </ul>
     </div>
 </div>
-
+<div>
+    <?php
+    include './Controller/Retaliation.php'
+    ?>
+  </div>
 <?php
     include './View/footer.php';
 ?>

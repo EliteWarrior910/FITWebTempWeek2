@@ -120,7 +120,7 @@
     <input id="InputOne"></input>
     <button id="RollButton" onclick="RollDie( document.getElementById('InputOne').value )">Roll</button>
     <p id="Outcome"></p> -->
-    <script>
+    <scri>
     // var Sides = 0;
     // var Cheater = false, Display = false;
     // function SideDesider(input){
@@ -185,6 +185,7 @@
     <!-- Place Answer Here -->
   </div>
 <!-- Question F2 -->
+s
 
 <!-- Question F3 -->
   <div class='student-response'>
