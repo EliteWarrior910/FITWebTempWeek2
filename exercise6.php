@@ -1,8 +1,9 @@
 <?php
+    session_start();
     include './Controller/db_inc.php';
     include './View/header.php';
     include './View/navbar.php';
-    session_start();
+    
 ?>
 
 <div class='main-content-grid'>

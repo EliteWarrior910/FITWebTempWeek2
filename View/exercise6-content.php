@@ -185,7 +185,7 @@
     <!-- Place Answer Here -->
   </div>
 <!-- Question F2 -->
-s
+
 
 <!-- Question F3 -->
   <div class='student-response'>
