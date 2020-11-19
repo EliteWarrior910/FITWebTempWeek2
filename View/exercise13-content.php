@@ -8,7 +8,11 @@
         <image id="locationPic" src="./view/public/images/fortisureit-location.png" alt="Fortisureit Building" ></image>
     <!-- Place Answer Here -->
 
-      <!-- Your code should be in the scss file :) -->
+      <!--@media only screen and (max-width: 1530px){
+            .main-content-grid img{
+              display: none;
+            }
+          } -->
 
     <!-- Place Answer Here -->
   </div>

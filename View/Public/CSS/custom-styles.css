@@ -277,4 +277,10 @@ p {
     transform: translateX(0);
   }
 }
+
+@media only screen and (max-width: 1530px) {
+  .main-content-grid img {
+    display: none;
+  }
+}
 /*# sourceMappingURL=custom-styles.css.map */
